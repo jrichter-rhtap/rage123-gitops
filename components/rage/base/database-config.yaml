@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rage-database-config
+data:
+  VECTORDB_HOST: "rage-database"
+  VECTORDB_PORT: "8000"
